@@ -8,6 +8,14 @@ but using the tiling technique underlaid over the DSEL. The one suffixed by cplx
 contains an example with complex numbers. The three other use variants of the
 DSEL (one with fixed coef, two others with variables), with float type.
 
+## About this branch
+
+In the branch "jacobi2", this code *should* be compatible with other SYCL compilers
+/ libraries (as ComputeCpp) but the code has not yet been fully translated.
+Also only "jacobi2-st-fxd" is available, others untranslated files have been
+deleted. A simple file is also present, to demonstrate a possible error when
+using ComputeCpp 16.03.
+
 ## About Jacobi
 
 It's a 5-points non-convergent stencil. Two arrays are used : the computations
